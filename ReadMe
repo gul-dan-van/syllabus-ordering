@@ -1,0 +1,14 @@
+DS 250, Assignment-2
+
+Name: Gauranshu
+Roll No.: 12040560
+
+++ partA.ipynb is scripted to extract wikipedia pages and store them into a dictionary object "graph_dict" which is later dumped into "graph.txt" using pickle.
+
+++ partB.ipynb is used to extract and process NLP feature on text extracted from wikipedia pages like tokenization, lemmization, calculating TFIDF score for each word.
+
+++ partC.ipynb has some functions defined in it that will help us in telling centrality metrics and clustering coefficient of nodes in graph. Centraility metrics that it calculates are closeness centrality and degree centrality.
+
+++ partD.ipynb will try to predict labels for all unlabeled node.
+
+++ partE.ipynb will select 5 nodes from graph randomly and will return a list of topics that are supposed to be done in order after the node that was passed as arguement.
